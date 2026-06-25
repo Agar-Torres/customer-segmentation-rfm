@@ -4,6 +4,8 @@ Segmenting ~4,300 customers of a UK online retailer into actionable groups using
 
 > **Key finding:** Just **5% of customers drive ~48% of total revenue.** Identifying and protecting these high-value segments is the project's core business insight.
 
+![Customer segments visualised on two principal components](customer_segments_plot.png)
+
 ## Overview
 This project takes a year of real transaction data (~540,000 records) and turns it into a customer-level segmentation a business can act on — distinguishing loyal high-value customers from at-risk and lapsed ones, so marketing and retention efforts can be targeted rather than one-size-fits-all.
 
