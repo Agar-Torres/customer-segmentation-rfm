@@ -2,12 +2,12 @@
 
 Segmenting ~4,300 customers of a UK online retailer into actionable groups using **RFM analysis**, **PCA**, and **k-means clustering** in Python.
 
-> **Key finding:** Just **5% of customers drive ~48% of total revenue.** Identifying and protecting these high-value segments is the project's core business insight.
+> **Key finding:** Just **5.0% of customers drive 47.7% of total revenue.** Identifying and protecting these high-value segments is the project's core business insight.
 
 ![Customer segments visualised on two principal components](customer_segments_plot.png)
 
 ## Overview
-This project takes a year of real transaction data (~540,000 records) and turns it into a customer-level segmentation a business can act on — distinguishing loyal high-value customers from at-risk and lapsed ones, so marketing and retention efforts can be targeted rather than one-size-fits-all.
+This project takes a year of real transaction data (~541,000 records) and turns it into a customer-level segmentation a business can act on — distinguishing loyal high-value customers from at-risk and lapsed ones, so marketing and retention efforts can be targeted rather than one-size-fits-all.
 
 ## Dataset
 [UCI Online Retail dataset](https://archive.ics.uci.edu/dataset/352/online+retail) — real transactions from a UK-based online gift retailer, 2010–2011 (~541,000 rows).
@@ -34,3 +34,4 @@ Python, pandas, NumPy, scikit-learn (StandardScaler, PCA, KMeans), matplotlib, J
 ## Files
 - `customer_segmentation_project.ipynb` — full analysis notebook
 - `customer_segments.csv` — final customer-level results with segment labels
+- `customer_segments_plot.png` — scatter plot of the customer segments
